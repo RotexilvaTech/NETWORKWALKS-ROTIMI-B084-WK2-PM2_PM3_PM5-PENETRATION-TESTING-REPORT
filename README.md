@@ -10,20 +10,15 @@
 ## WEEK 2 | CYBERSECURITY & ETHICAL HACKING  |  NETWORK WALKS
 
 ## Report Information	Details
-
-
+| | |
 |---|---|
-| Pentester Name
-(Cybersecurity Professional) | Rotimi Elijah Ogunbiyi | 
+| Pentester Name (Cybersecurity Professional) | Rotimi Elijah Ogunbiyi | 
 | Program/Batch | B084-NetworkWalks |  
 | Date | 25 November 2026 |
-| Client/Target | 1. Networkwalks (secured written permission already)
-2. My own local LAN Network | 
-| Modules Covered | W2-PM2 (GHDB), W2-PM3 (Maltego) W2-PM5 (Network Scanning with Zenmap) | 
+| Client/Target | Networkwalks (secured written permission already); My own local LAN Network | 
+| Modules Covered | W2-PM2 (GHDB); W2-PM3 (Maltego); W2-PM5 (Network Scanning with Zenmap) | 
 | Permission secured from client?	| Yes |
-| Phases covered | Phase 1: Maltego
-Phase 2: Scanning & Network Discovery
-Phase 3: GHDB |
+| Phases covered | Phase 1: Maltego; Phase 2: Scanning & Network Discovery; Phase 3: GHDB |
 
 ---
  
@@ -188,18 +183,17 @@ The practical required reviewing multiple GHDB dorks and checking the returned s
 
 ## 6. Risk Analysis and Security Relevance
 These are potential risks associated with exposed information or unreviewed network devices; they are not confirmed vulnerabilities. 
-GHDB searches can reveal information that has been indexed publicly, but a search result alone does not establish that a system is vulnerable or that access is authorized. Any potentially sensitive findings should be handled responsibly, documented with appropriate redaction, and reported through an authorized channel.
+Any potentially sensitive findings should be handled responsibly, documented with appropriate redaction, and reported through an authorized channel.
 
----
+| Observation	| Potential impact | Indicative risk |
 |---|---|---|
-### 7 |Observation	| Potential impact	| Indicative risk |
 | 1.	Domain-related information and relationships were returned during the Maltego exercise.	| Information gathered from public sources may help build a profile of an organisation and its digital footprint. | Low–Medium |
 | 2. The reconnaissance exercise demonstrated that domain-related information can be collected and visually related.	| Collected information may support further targeted reconnaissance if misused.	| Low–Medium |
 | 3. Zenmap identified responsive hosts within the local subnet. | Unrecognised or unauthorised devices on a network may increase the organisation's exposure.	| Medium |
 | 4. IP and MAC address information was available for host identification.	| Network addressing information can help an administrator inventory devices, but may also assist an attacker conducting internal reconnaissance.	| Low |
 |	5. A network topology was generated from the scan results.	| An outdated or widely exposed network map may disclose useful information about the network layout.	| Low–Medium |
 
-The two exercises focused on information gathering and host discovery. No exploitation or vulnerability validation was performed as part of these activities. The observations therefore require further authorised assessment before any vulnerability can be confirmed. The practical was conducted for educational purposes. Any further testing or access should be limited to systems within an explicitly authorized scope.
+The exercises focused on information gathering and host discovery. No exploitation or vulnerability validation was performed as part of these activities. GHDB searches can reveal information that has been indexed publicly, but a search result alone does not establish that a system is vulnerable or that access is authorized. The observations therefore require further authorised assessment before any vulnerability can be confirmed. The practical was conducted for educational purposes. Any further testing or access should be limited to systems within an explicitly authorized scope.
 
 ---
 ## 8. Recommendations
@@ -222,10 +216,17 @@ The troubleshooting involved in the activities was also valuable. Resolving the 
 Overall, these exercises reinforced the importance of structured information gathering, network visibility, careful interpretation of results, reviewing findings carefully, handling potentially sensitive information responsibly, and clear technical documentation. They also highlighted that reconnaissance and scanning must always be performed within an authorised scope.
 
 ---
-## 10. Project Information
-Author:	Rotimi Elijah Ogunbiyi
-Cybersecurity Intern B084– Network Walks
-LinkedIn: 
+## 10. 📌 Project Information
+| | |
+|---|---|
+| Author	| Rotimi Elijah Ogunbiyi |
+| Cybersecurity Intern | B084 |
+| LinkedIn | | 
+| Program Name | Cybersecurity program at Networkwalks |
+| Week | 02 | 
+| Repository | GitHub |
+
+
 
 ---
 ## END OF REPORT
